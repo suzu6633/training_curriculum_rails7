@@ -21,7 +21,6 @@ class CalendarsController < ApplicationController
   def get_week
     wdays_num = Date.today.wday
     wdays = ['(日)','(月)','(火)','(水)','(木)','(金)','(土)']
-    current_wday = wdays[wdays_num]
 
     @todays_date = Date.today
 
